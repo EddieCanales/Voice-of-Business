@@ -1,0 +1,5 @@
+Voice of Business is a way to see what businesses are saying across the US. It combines use of the Manta API with other social APIs (only twitter right now).
+
+There are lots of cool things to come - this is just a proof of concept at the moment.
+
+This is currently a prototype and cannot be used by the public.

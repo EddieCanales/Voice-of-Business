@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"> 
+	<title>Voice of Business by Manta</title> 
+<link rel="stylesheet" href="vob.css" type="text/css">	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10"> 
+<link rel="icon" href="http://manta.com/manta/images/favicon.png" type="image/png"> 
+<link rel="shortcut icon" href="http://manta.com/manta/images/favicon.ico">	<link rel="apple-touch-icon" href="http://manta.com/manta/images/favicon-touch.png" type="image/png">		
+	<link rel="image_src" href="http://m4.manta-r1.com/images/manta-fb-share-logo.jpg"> 
+
+	<!-- jQuery & Maps API -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+</head> 
+
+<body>
+<div id="body-wrapper">
+	<div id="toolbar" class="m_brand">
+	<h1>Voice of Business <em>by</em> <a href="http://www.manta.com/"><img alt="Manta" src="m_logo.png"></a></h1>
+	<p class="intro_text">Type in a business category and/or location to see what America's business owners are talkin' about.</p>
+		<div class="tools">
+			<p>
+				<form class="vob-search-form">
+					<!--label for="category">Show me</label>
+					<input id="category" type="text" value="Business Category"-->
+					<label for="search-term">Search for</label>
+					<input id="search-term" type="text" value="" />
+					<label for="location">near</label>
+					<input id="location" type="text" value="">
+					<button type="submit">Go</button>
+				</form>
+			</p>
+		</div>
+	</div>
+
+	<div id="map"></div>
+	<div id="loading-overlay">loading...</div>
+	<div id="noresults-overlay">It's quiet... a little too quiet.</div>
+
+	<div id="prompt">
+		Want your voice to be heard? <a href="http://www.manta.com/profile/my-companies/select?add_driver=vob">Add your company to Manta now!</a>
+	</div>
+	<div id="sources" class="m_brand">
+		<span id="srcs_label">Show conversations from:</span><ul>
+			<li class="m_brand"><input type="checkbox" id="source_twtr" checked="checked"><label for="source_twtr">Twitter</label></li>
+			<li class="m_brand"><input type="checkbox" id="source_fcbk"><label for="source_fcbk">Facebook</label></li>
+			<li class="m_brand"><input type="checkbox" id="source_mntc"><label for="source_mntc">Manta</label></li>
+			<li class="m_brand"><input type="checkbox" id="source_lnkd"><label for="source_lnkd">LinkedIn</label></li>
+		</ul>
+	</div>
+</div>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script> 
+<script type="text/javascript" src="vob.js"></script> 
+
+</body></html>
